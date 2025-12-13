@@ -76,7 +76,8 @@ button:hover{
 }
 .lil{
     text-align: center;
-
+    padding-left: 2px;
+    padding-right: 2px;
 }
 .father{
     text-align: center;
@@ -92,14 +93,32 @@ button:hover{
 }
 .child1{
     background-color: black;
+    align-self: self-start;
 }
 .child2{
     background-color: black;
+    align-self: self-start;
 }
 .child3{
-    text-align: left;
+    align-self: flex-end;
     background-color: black;
 }
 .childs{
     background-color: black;
+    align-self: flex-end;
+}
+.vat{
+    text-align: center;
+}
+.sea{
+    padding-left: 30px;
+}
+.child4{
+    align-self: center;
+}
+.grandpa{
+    display: flex;
+}
+.maz{
+    display: flex;
 }
